@@ -808,9 +808,17 @@ footer h6{
     header .logo-nav ul{
         display: none;
     }
+    header .logo-nav div {
+        width: 50px;
+        height: 50px;
+    }
+    .logo-nav section {
+        width: 50px;
+        height: 50px;
+    }
     header .logo-img{
         position: fixed;
-        right: 30px;
+        right: 7px;
     }
     header .logo-img div{
         width: 60px;
