@@ -64,7 +64,6 @@ list.forEach((ele)=>{
 navClick.addEventListener('click', ()=>{
     listBar.classList.add('open');
     listBar.style.cssText = "transition: 1s ease;";
-    body.classList.add('dark');
 });
 closebtn.addEventListener('click', ()=>{
     listBar.classList.toggle('open');
